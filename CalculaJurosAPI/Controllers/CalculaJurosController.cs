@@ -30,6 +30,7 @@ namespace CalculaJurosAPI.Controllers
             {
                 var calculaJurosService = new CalculaJurosService();
                 var TaxaJuros = await BuscaTaxaJurosService.ObterTaxaJuros(_config);
+
                 return Ok(calculaJurosService.CalculaJurosComposto(ValorInicial, Meses, TaxaJuros));
             }
             catch (Exception ex)

@@ -8,11 +8,11 @@ namespace CalculaJurosAPI.Service
 {
     public static class BuscaTaxaJurosService
     {
-        public static async Task<decimal> ObterTaxaJuros(IConfiguration config)
+        public static async Task<double> ObterTaxaJuros(IConfiguration config)
         {
             try
             {
-                decimal TaxaJuros = await ConsultaTaxaJuros(config);
+                double TaxaJuros = await ConsultaTaxaJuros(config);
 
                 if (TaxaJuros <= 0)
                 {
@@ -27,7 +27,7 @@ namespace CalculaJurosAPI.Service
             }
         }
 
-        private static async Task<decimal> ConsultaTaxaJuros(IConfiguration config)
+        private static async Task<double> ConsultaTaxaJuros(IConfiguration config)
         {
             using (var http = new HttpClient())
             {
@@ -43,10 +43,10 @@ namespace CalculaJurosAPI.Service
             return 0;
         }
 
-        private static async Task<decimal> ObterTaxaJuros(HttpResponseMessage respostaHTTP)
+        private static async Task<double> ObterTaxaJuros(HttpResponseMessage respostaHTTP)
         {
             var body = await respostaHTTP.Content.ReadAsStringAsync();
-            var sucesso = decimal.TryParse(body, out var taxaJuros);
+            var sucesso = double.TryParse(body.Replace(".", ","), out double taxaJuros);
             return sucesso ? taxaJuros : 0;
         }
     }

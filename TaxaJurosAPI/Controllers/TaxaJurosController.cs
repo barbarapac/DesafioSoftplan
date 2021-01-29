@@ -1,8 +1,7 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
-using TaxaJurosAPI.Service;
 using System;
-using System.Threading.Tasks;
+using TaxaJurosAPI.Service;
 
 namespace TaxaJurosAPI.Controllers
 {
@@ -15,7 +14,7 @@ namespace TaxaJurosAPI.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public async Task<IActionResult> BuscaTaxaJuros()
+        public IActionResult BuscaTaxaJuros()
         {
             try
             {

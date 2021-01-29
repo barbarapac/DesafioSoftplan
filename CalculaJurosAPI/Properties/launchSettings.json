@@ -16,6 +16,8 @@
     },
     "CalculaJurosAPI": {
       "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5001/documentacao/index.html",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

@@ -193,34 +193,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\barba\\.nuget\\packages\\": {}
+    "C:\\Users\\babya\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
+      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
       "projectName": "TaxaJurosAPI",
-      "projectPath": "D:\\GitHub\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
-      "packagesPath": "C:\\Users\\barba\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\DesafioSoftplan\\TaxaJurosAPI\\obj\\",
+      "projectPath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
+      "packagesPath": "C:\\Users\\babya\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\barba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+        "C:\\Users\\babya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.0.99:5000/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -232,7 +228,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -257,7 +252,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

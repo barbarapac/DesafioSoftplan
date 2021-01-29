@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F194b9UNEcrgjWWS3VSSQeWXD2ENFg/wrnzb8i7oUNbmvJ8pLRmEH3D1+r0uMofXPjZliNfVsE5BcpGkD0hPlg==",
+  "dgSpecHash": "W926cFb731dOO6Q/o45c7jLclE0kfED2IjU1yXZtmIUZHvFI3bigxMkpiIXsznSjCLuotKJfQ+iRSfRS6tESdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
+  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\babya\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\babya\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

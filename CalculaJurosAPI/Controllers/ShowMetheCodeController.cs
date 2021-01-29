@@ -1,26 +1,25 @@
-﻿
+﻿using CalculaJurosAPI.Service;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using TaxaJurosAPI.Service;
 
-namespace TaxaJurosAPI.Controllers
+namespace CalculaJurosAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TaxaJurosController : ControllerBase
+    public class ShowMetheCodeController : ControllerBase
     {
         /// <summary>
-        /// Retorna a taxa de juros composto.
+        /// Retorna a Url do repositório GitHub.
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public IActionResult BuscaTaxaJuros()
+        public IActionResult BuscaPathUrlGitHub()
         {
             try
             {
-                return Ok(TaxaJurosService.TaxaJurosComposto);
+                return Ok(ShowMetheCodeService.PathRepoGitHub);
             }
-            catch (Exception )
+            catch (Exception)
             {
                 return UnprocessableEntity("Ops! Ocorreu erro ao consultar a taxa de juros, tente novamente! :)");
             }

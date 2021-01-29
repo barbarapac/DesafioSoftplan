@@ -7,7 +7,7 @@ namespace CalculaJurosAPI.Interface
 {
     public interface ICalculaJuros
     {
-        decimal CalculaJurosComposto(decimal ValorInicial, int Meses, double TaxaJuros);
+        decimal CalculaJurosComposto(decimal ValorInicial, int Meses, decimal TaxaJuros);
 
     }
 }

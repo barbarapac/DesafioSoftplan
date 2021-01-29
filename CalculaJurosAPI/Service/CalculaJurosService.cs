@@ -5,7 +5,7 @@ namespace CalculaJurosAPI.Service
 {
     public class CalculaJurosService : ICalculaJuros
     {
-        public decimal CalculaJurosComposto(decimal ValorInicial, int Meses, double TaxaJuros)
+        public decimal CalculaJurosComposto(decimal ValorInicial, int Meses, decimal TaxaJuros)
         {
             try
             {
@@ -14,7 +14,7 @@ namespace CalculaJurosAPI.Service
                     throw new Exception("Os valores informados são invalidos!");
                 }
 
-                var ValorFinal = (ValorInicial * (decimal)Math.Pow(1 + TaxaJuros, Meses));
+                var ValorFinal = (ValorInicial * Math.Pow(1 + TaxaJuros, Meses));
                 return Math.Truncate(ValorFinal);
 
             }

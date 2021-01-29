@@ -16,7 +16,6 @@ namespace CalculaJurosAPI.Service
 
                 var ValorFinal = (double)ValorInicial * Math.Pow((TaxaJuros + 1), Meses);
                 return TrucarSemRound(ValorFinal);
-
             }
             catch (Exception ex)
             {
@@ -28,11 +27,10 @@ namespace CalculaJurosAPI.Service
         {
             try
             {
-                return (double)Math.Truncate(100 * ValorFinal) / 100;
+                return (double)(Math.Truncate(100 * ValorFinal) / 100);
             }
             catch (Exception)
             {
-
                 throw;
             }
         }

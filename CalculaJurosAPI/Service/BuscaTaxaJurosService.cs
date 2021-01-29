@@ -33,7 +33,6 @@ namespace CalculaJurosAPI.Service
             using (var http = new HttpClient())
             {
                 Uri urlRequisicao = new Uri(config.GetSection("UrlApiAuxiliar").GetSection("UrlApiCalculaJuros").Value);
-                //HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, urlRequisicao);
                 var response = await http.GetAsync(urlRequisicao);
 
                 if (response.StatusCode == HttpStatusCode.OK)

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxaJurosAPI", "TaxaJurosAPI\TaxaJurosAPI.csproj", "{30962C66-355A-4524-89D1-9FAA4622261F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaJurosAPI", "CalculaJurosAPI\CalculaJurosAPI.csproj", "{A02082AD-620C-43E8-A7EA-AA529590AE67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30962C66-355A-4524-89D1-9FAA4622261F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30962C66-355A-4524-89D1-9FAA4622261F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30962C66-355A-4524-89D1-9FAA4622261F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30962C66-355A-4524-89D1-9FAA4622261F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02082AD-620C-43E8-A7EA-AA529590AE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02082AD-620C-43E8-A7EA-AA529590AE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02082AD-620C-43E8-A7EA-AA529590AE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02082AD-620C-43E8-A7EA-AA529590AE67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43998A3E-124E-4145-862F-B023E9727380}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "F194b9UNEcrgjWWS3VSSQeWXD2ENFg/wrnzb8i7oUNbmvJ8pLRmEH3D1+r0uMofXPjZliNfVsE5BcpGkD0hPlg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\babya\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\babya\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\babya\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\babya\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\babya\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\babya\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

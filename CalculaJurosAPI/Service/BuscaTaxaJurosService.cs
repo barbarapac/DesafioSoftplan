@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
+using System.Globalization;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -45,8 +46,9 @@ namespace CalculaJurosAPI.Service
 
         private static async Task<double> ObterTaxaJuros(HttpResponseMessage respostaHTTP)
         {
-            var body = await respostaHTTP.Content.ReadAsStringAsync();
-            var sucesso = double.TryParse(body.Replace(".", ","), out double taxaJuros);
+            var response = await respostaHTTP.Content.ReadAsStringAsync();
+            var sucesso = double.TryParse(response, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out double taxaJuros);
+
             return sucesso ? taxaJuros : 0;
         }
     }

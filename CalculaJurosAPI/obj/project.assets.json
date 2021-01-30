@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\CalculaJurosAPI\\CalculaJurosAPI.csproj",
+      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosAPI\\CalculaJurosAPI.csproj",
       "projectName": "CalculaJurosAPI",
-      "projectPath": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\CalculaJurosAPI\\CalculaJurosAPI.csproj",
+      "projectPath": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosAPI\\CalculaJurosAPI.csproj",
       "packagesPath": "C:\\Users\\babya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\CalculaJurosAPI\\obj\\",
+      "outputPath": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\babya\\AppData\\Roaming\\NuGet\\NuGet.Config",

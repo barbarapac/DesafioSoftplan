@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3lb34zFgR75fbywX6tBPxCKKa4fZpzWWouYhI+8BFHCS9vidy7XXJvbsedj0CHWOV3jqkSBmnFEprc9ZMV1fPQ==",
+  "dgSpecHash": "Qn2cmp+wb6STOin39JrydEwo7R1Qf6gZPOh/QmNi3XIS+Au96NO4Ri+mIHyXNkmj+boDLv/G7BkE90wulErCtw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\CalculaJurosAPI\\CalculaJurosAPI.csproj",
+  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosAPI\\CalculaJurosAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\babya\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\babya\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

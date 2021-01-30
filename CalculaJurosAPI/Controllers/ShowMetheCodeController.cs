@@ -17,7 +17,7 @@ namespace CalculaJurosAPI.Controllers
         {
             try
             {
-                return Ok(ShowMetheCodeService.PathRepoGitHub);
+                return Ok(ShowMetheCodeServices.PathRepoGitHub);
             }
             catch (Exception)
             {

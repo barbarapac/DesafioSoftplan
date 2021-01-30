@@ -1,4 +1,4 @@
-﻿using CalculaJurosAPI.Service;
+﻿using CalculaJurosAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using System;

@@ -37,7 +37,6 @@ C:\Projetos\DesafioSoftplan\TaxaJurosAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenA
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\TaxaJurosAPI.csprojAssemblyReference.cache
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\TaxaJurosAPI.AssemblyInfoInputs.cache
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\TaxaJurosAPI.AssemblyInfo.cs
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\TaxaJurosAPI.csproj.CoreCompileInputs.cache

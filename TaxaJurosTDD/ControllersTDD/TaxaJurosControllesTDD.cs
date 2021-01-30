@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using TaxaJurosAPI.Controllers;
 
-namespace TaxaJurosTDD.Controllers
+namespace TaxaJurosTDD.ControllersTDD
 {
     public class TaxaJurosControllesTDD
     {

@@ -37,7 +37,6 @@ C:\Projetos\DesafioSoftplan\CalculaJurosAPI\bin\Debug\netcoreapp3.1\Microsoft.Op
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.csprojAssemblyReference.cache
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.AssemblyInfoInputs.cache
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.AssemblyInfo.cs
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.csproj.CoreCompileInputs.cache

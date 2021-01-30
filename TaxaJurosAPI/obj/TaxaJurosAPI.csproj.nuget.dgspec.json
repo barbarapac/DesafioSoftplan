@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj": {}
+    "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj": {
+    "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
+        "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
         "projectName": "TaxaJurosAPI",
-        "projectPath": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
+        "projectPath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\TaxaJurosAPI.csproj",
         "packagesPath": "C:\\Users\\babya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\babya\\source\\repos\\DesafioSoftplan\\TaxaJurosAPI\\obj\\",
+        "outputPath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\babya\\AppData\\Roaming\\NuGet\\NuGet.Config",

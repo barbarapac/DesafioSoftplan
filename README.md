@@ -21,7 +21,9 @@
 - Abrir a IDE do Visual Studio.
 - Executar o projeto através <Vários Projetos de Inicialização>(já configurado).
 - Pagina inicial da aplicação será aberta no seu navegador padrão, com a documentação Swagger do endpoint para calculo dos juros.
+
 **OU** (para execução dos testes)
+
 - Abrir diretorio da api **TaxaServicoAPI** pelo terminal, rode o comando `dotnet run --project TaxaJurosAPI.csproj`;
 - Abrir diretorio da api **CalculaJurosAPI** pelo terminal, rode o comando `dotnet run --project CalculaJurosAPI.csproj`;
 

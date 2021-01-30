@@ -10,13 +10,6 @@ namespace CalculaJurosAPI.Controllers
     [ApiController]
     public class CalculaJurosController : ControllerBase
     {
-
-        private readonly IConfiguration _config;
-        public CalculaJurosController(IConfiguration config)
-        {
-            _config = config;
-        }
-
         /// <summary>
         /// Calcula em memória o valor final a ser pago.
         /// </summary>
@@ -29,7 +22,7 @@ namespace CalculaJurosAPI.Controllers
             try
             {
                 var calculaJurosService = new CalculaJurosService();
-                var TaxaJuros = await BuscaTaxaJurosService.ObterTaxaJuros(_config);
+                var TaxaJuros = await BuscaTaxaJurosService.ObterTaxaJuros();
 
                 return Ok(calculaJurosService.CalculaJurosComposto(ValorInicial, Meses, TaxaJuros));
             }

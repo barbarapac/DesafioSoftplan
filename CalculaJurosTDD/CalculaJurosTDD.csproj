@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CalculaJurosAPI\CalculaJurosAPI.csproj" />
+    <ProjectReference Include="..\TaxaJurosAPI\TaxaJurosAPI.csproj" />
   </ItemGroup>
 
 </Project>

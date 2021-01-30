@@ -49,3 +49,6 @@ C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\staticwebass
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.dll
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.pdb
 C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.genruntimeconfig.cache
+C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.csprojAssemblyReference.cache
+C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.csproj.GenerateResource.cache
+C:\Projetos\DesafioSoftplan\CalculaJurosAPI\obj\Debug\netcoreapp3.1\CalculaJurosAPI.Resources.UrlsApiResource.resources

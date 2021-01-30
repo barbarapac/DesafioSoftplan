@@ -11,9 +11,12 @@ namespace CalculaJurosAPI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            StaticConfig = configuration;
         }
 
         public IConfiguration Configuration { get; }
+        public static IConfiguration StaticConfig { get; set; }
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -35,7 +38,7 @@ namespace CalculaJurosAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
             app.UseRouting();
             app.UseAuthorization();
 

@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using CalculaJurosAPI.Services;
+using NUnit.Framework;
+using System.Threading.Tasks;
 
 namespace CalculaJurosTDD.ServicesTDD
 {
@@ -7,12 +9,16 @@ namespace CalculaJurosTDD.ServicesTDD
         [SetUp]
         public void Setup()
         {
+            _ = TestaGetTaxaDeJurosHttp();
         }
 
         [Test]
-        public void Test1()
+        public async Task TestaGetTaxaDeJurosHttp()
         {
-            Assert.Pass();
+            double TaxaJurosEsperada = 0.01;
+            var TaxaJurosObtida = await BuscaTaxaJurosService.ObterTaxaJuros();
+
+            Assert.IsTrue(TaxaJurosObtida == TaxaJurosEsperada);
         }
     }
 }

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CalculaJurosTDD": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}

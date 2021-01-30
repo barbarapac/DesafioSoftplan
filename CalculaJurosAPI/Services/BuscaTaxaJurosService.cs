@@ -1,19 +1,21 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
+﻿using System;
 using System.Globalization;
 using System.Net;
 using System.Net.Http;
+using System.Reflection;
+using System.Resources;
 using System.Threading.Tasks;
 
 namespace CalculaJurosAPI.Services
 {
     public static class BuscaTaxaJurosService
     {
-        public static async Task<double> ObterTaxaJuros(IConfiguration config)
+
+        public static async Task<double> ObterTaxaJuros()
         {
             try
             {
-                double TaxaJuros = await ConsultaTaxaJuros(config);
+                double TaxaJuros = await ConsultaTaxaJuros();
 
                 if (TaxaJuros <= 0)
                 {
@@ -28,11 +30,12 @@ namespace CalculaJurosAPI.Services
             }
         }
 
-        private static async Task<double> ConsultaTaxaJuros(IConfiguration config)
+        private static async Task<double> ConsultaTaxaJuros()
         {
             using (var http = new HttpClient())
             {
-                Uri urlRequisicao = new Uri(config.GetSection("UrlApiAuxiliar").GetSection("UrlApiCalculaJuros").Value);
+                ResourceManager rm = new ResourceManager("CalculaJurosAPI.Resources.UrlsApiResource", Assembly.GetExecutingAssembly());
+                Uri urlRequisicao = new Uri(rm.GetString("UrlApiCalculaJuros"));
                 var response = await http.GetAsync(urlRequisicao);
 
                 if (response.StatusCode == HttpStatusCode.OK)

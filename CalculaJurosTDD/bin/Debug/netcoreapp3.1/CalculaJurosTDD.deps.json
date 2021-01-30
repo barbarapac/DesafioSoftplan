@@ -11,6 +11,7 @@
           "CalculaJurosAPI": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.4.0",
           "NUnit3TestAdapter": "3.15.1",
+          "TaxaJurosAPI": "1.0.0",
           "NUnit": "3.12.0"
         },
         "runtime": {
@@ -920,6 +921,14 @@
         "runtime": {
           "CalculaJurosAPI.dll": {}
         }
+      },
+      "TaxaJurosAPI/1.0.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "5.6.3"
+        },
+        "runtime": {
+          "TaxaJurosAPI.dll": {}
+        }
       }
     }
   },
@@ -1413,6 +1422,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
     "CalculaJurosAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaxaJurosAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

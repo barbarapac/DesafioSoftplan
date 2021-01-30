@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using CalculaJurosAPI.Service;
 
 namespace CalculaJurosTDD.ServicesTDD
 {
@@ -7,12 +8,16 @@ namespace CalculaJurosTDD.ServicesTDD
         [SetUp]
         public void Setup()
         {
+            TestaValorUrlGitGub();
         }
 
         [Test]
-        public void Test1()
+        public void TestaValorUrlGitGub()
         {
-            Assert.Pass();
+            string UrlEsperada = "https://github.com/barbarapac/DesafioSoftplan";
+            string UrlRetorno = ShowMetheCodeServices.PathRepoGitHub;
+
+            Assert.IsTrue(UrlRetorno == UrlEsperada);
         }
     }
 }

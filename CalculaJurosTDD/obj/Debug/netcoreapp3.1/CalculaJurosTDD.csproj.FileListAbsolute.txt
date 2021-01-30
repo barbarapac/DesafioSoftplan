@@ -104,3 +104,6 @@ C:\Projetos\DesafioSoftplan\CalculaJurosTDD\bin\Debug\netcoreapp3.1\Swashbuckle.
 C:\Projetos\DesafioSoftplan\CalculaJurosTDD\bin\Debug\netcoreapp3.1\CalculaJurosAPI.dll
 C:\Projetos\DesafioSoftplan\CalculaJurosTDD\bin\Debug\netcoreapp3.1\CalculaJurosAPI.pdb
 C:\Projetos\DesafioSoftplan\CalculaJurosTDD\obj\Debug\netcoreapp3.1\CalculaJurosTDD.csprojAssemblyReference.cache
+C:\Projetos\DesafioSoftplan\CalculaJurosTDD\bin\Debug\netcoreapp3.1\TaxaJurosAPI.exe
+C:\Projetos\DesafioSoftplan\CalculaJurosTDD\bin\Debug\netcoreapp3.1\TaxaJurosAPI.dll
+C:\Projetos\DesafioSoftplan\CalculaJurosTDD\bin\Debug\netcoreapp3.1\TaxaJurosAPI.pdb

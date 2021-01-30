@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using CalculaJurosAPI.Controllers;
+using Microsoft.AspNetCore.Mvc;
+using NUnit.Framework;
 
 namespace CalculaJurosTDD.ControllersTDD
 {
@@ -7,12 +9,19 @@ namespace CalculaJurosTDD.ControllersTDD
         [SetUp]
         public void Setup()
         {
+            TestaGetPathUrlGitHub();
         }
 
         [Test]
-        public void Test1()
+        public void TestaGetPathUrlGitHub()
         {
-            Assert.Pass();
+            string UrlEsperada = "https://github.com/barbarapac/DesafioSoftplan";
+
+            var controller = new ShowMetheCodeController();
+            var ActionResult = controller.BuscaPathUrlGitHub();
+            var OkResult = ActionResult as OkObjectResult;
+
+            Assert.IsTrue(UrlEsperada == (string)OkResult.Value);
         }
     }
 }

@@ -27,6 +27,10 @@
 - Abrir diretorio da api **TaxaServicoAPI** pelo terminal, rode o comando `dotnet run --project TaxaJurosAPI.csproj`;
 - Abrir diretorio da api **CalculaJurosAPI** pelo terminal, rode o comando `dotnet run --project CalculaJurosAPI.csproj`;
 
+### Instruções para a acesso a documentação Swagger:
+- Documentação **TaxaServicoAPI**: `http://localhost:5003/documentacao/index.html`;
+- Documentação **CalculoJurosAPI**: `http://localhost:5001/documentacao/index.html`;
+
 ### Instruções para a execução dos teste unitários:
 - Abrir a IDE do Visual Studio.
 - Os testes estão localizados na pasta 'Testes', selecionar o teste desejado;

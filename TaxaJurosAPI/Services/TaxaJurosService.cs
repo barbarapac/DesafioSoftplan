@@ -1,8 +1,12 @@
-﻿namespace TaxaJurosAPI.Services
-{
-    public static class TaxaJurosService
-    {
-        public static double TaxaJurosComposto { get; } = 0.01;
+﻿using TaxaJurosAPI.Interfaces;
 
+namespace TaxaJurosAPI.Services
+{
+    public class TaxaJurosService : ITaxaJuros
+    {
+        public double TaxaJurosComposto()
+        {
+            return 0.01;
+        }
     }
 }

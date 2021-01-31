@@ -18,11 +18,12 @@ namespace TaxaJurosAPI.Controllers
         {
             try
             {
-                return Ok(TaxaJurosService.TaxaJurosComposto);
+                var taxaJurosService = new TaxaJurosService();
+                return Ok(taxaJurosService.TaxaJurosComposto());
             }
             catch (Exception )
             {
-                return UnprocessableEntity("Ops! Ocorreu erro ao consultar a taxa de juros, tente novamente! :)");
+                return BadRequest("Ops! Ocorreu erro ao consultar a taxa de juros, tente novamente! :)");
             }
         }
     }

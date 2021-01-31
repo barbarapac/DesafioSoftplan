@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rD3zfQhIu0xOv0B9+Jo7ru9rHW3Nm3iC2G+/Xtu2xDBdz2HXeYKRoXzy5La2KjZ6Q/nNc4hEWTBQmlgJTujhuQ==",
+  "dgSpecHash": "wpdwRr+zsBCHZ6x2IbO1VDZjgfxlAbjmGsQjWN/xN8tTDbRjmPXCVQpPaDNSOPEx2rYKGl8+SvAnwZsQnCcDNw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosTDD\\TaxaJurosTDD.csproj",
+  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosTDD\\TaxaJurosTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\babya\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\babya\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

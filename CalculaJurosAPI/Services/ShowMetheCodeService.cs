@@ -1,7 +1,12 @@
-﻿namespace CalculaJurosAPI.Service
+﻿using CalculaJurosAPI.Interfaces;
+
+namespace CalculaJurosAPI.Service
 {
-    public static class ShowMetheCodeServices
+    public class ShowMetheCodeServices : IShowMetheCode
     {
-        public static string PathRepoGitHub { get; } = "https://github.com/barbarapac/DesafioSoftplan";
+        public string PathRepoGitHub()
+        {
+            return "https://github.com/barbarapac/DesafioSoftplan";
+        }
     }
 }

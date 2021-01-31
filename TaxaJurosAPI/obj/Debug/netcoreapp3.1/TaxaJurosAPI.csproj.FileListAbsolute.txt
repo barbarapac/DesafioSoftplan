@@ -49,4 +49,3 @@ C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\staticwebassets
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\TaxaJurosAPI.dll
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\TaxaJurosAPI.pdb
 C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\TaxaJurosAPI.genruntimeconfig.cache
-C:\Projetos\DesafioSoftplan\TaxaJurosAPI\obj\Debug\netcoreapp3.1\TaxaJurosAPI.csprojAssemblyReference.cache

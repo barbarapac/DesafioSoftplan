@@ -17,11 +17,12 @@ namespace CalculaJurosAPI.Controllers
         {
             try
             {
-                return Ok(ShowMetheCodeServices.PathRepoGitHub);
+                var showMetheCode = new ShowMetheCodeServices();
+                return Ok(showMetheCode.PathRepoGitHub());
             }
             catch (Exception)
             {
-                return UnprocessableEntity("Ops! Ocorreu erro ao consultar a taxa de juros, tente novamente! :)");
+                return BadRequest("Ops! Ocorreu erro ao consultar a taxa de juros, tente novamente! :)");
             }
         }
     }

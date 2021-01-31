@@ -1,21 +1,21 @@
-﻿using CalculaJurosAPI.Interface;
+﻿using CalculaJurosAPI.Interfaces;
 using System;
 
 namespace CalculaJurosAPI.Services
 {
     public class CalculaJurosService : ICalculaJuros
     {
-        public double CalculaJurosComposto(decimal ValorInicial, int Meses, double TaxaJuros)
+        public double CalculaJurosComposto(decimal valorInicial, int meses, double taxaJuros)
         {
             try
             {
-                if (ValorInicial <= 0 || Meses <= 0 || TaxaJuros <= 0)
+                if (valorInicial <= 0 || meses <= 0 || taxaJuros <= 0)
                 {
                     throw new Exception("Os valores informados são invalidos!");
                 }
 
-                var ValorFinal = (double)ValorInicial * Math.Pow((TaxaJuros + 1), Meses);
-                return TrucarSemRound(ValorFinal);
+                var valorFinal = (double)valorInicial * Math.Pow((taxaJuros + 1), meses);
+                return TrucarSemRound(valorFinal);
             }
             catch (Exception ex)
             {
@@ -23,11 +23,11 @@ namespace CalculaJurosAPI.Services
             }
         }
 
-        public double TrucarSemRound(double ValorFinal)
+        public double TrucarSemRound(double valorFinal)
         {
             try
             {
-                return (double)(Math.Truncate(100 * ValorFinal) / 100);
+                return (double)(Math.Truncate(100 * valorFinal) / 100);
             }
             catch (Exception)
             {

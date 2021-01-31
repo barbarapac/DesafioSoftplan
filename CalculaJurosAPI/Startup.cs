@@ -11,11 +11,9 @@ namespace CalculaJurosAPI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            StaticConfig = configuration;
         }
 
         public IConfiguration Configuration { get; }
-        public static IConfiguration StaticConfig { get; set; }
 
         public void ConfigureServices(IServiceCollection services)
         {
@@ -37,6 +35,11 @@ namespace CalculaJurosAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(options => {
+                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger CalculaJurosAPI");
+                    options.RoutePrefix = "documentacao";
+                });
             }
             
             app.UseRouting();
@@ -45,12 +48,6 @@ namespace CalculaJurosAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
-
-            app.UseSwagger();
-            app.UseSwaggerUI(options => {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger demo");
-                options.RoutePrefix = "documentacao";
             });
         }
     }

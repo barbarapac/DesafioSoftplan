@@ -4834,9 +4834,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosTDD\\TaxaJurosTDD.csproj",
-      "projectName": "TaxaJurosTDD",
-      "projectPath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosTDD\\TaxaJurosTDD.csproj",
+      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosTDD\\TaxaJurosTest.csproj",
+      "projectName": "TaxaJurosTest",
+      "projectPath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosTDD\\TaxaJurosTest.csproj",
       "packagesPath": "C:\\Users\\babya\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos\\DesafioSoftplan\\TaxaJurosTDD\\obj\\",
       "projectStyle": "PackageReference",

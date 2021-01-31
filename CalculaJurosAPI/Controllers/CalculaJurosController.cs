@@ -17,18 +17,18 @@ namespace CalculaJurosAPI.Controllers
         /// <param name="Meses"></param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<IActionResult> CalculaJuros(decimal ValorInicial, int Meses)
+        public async Task<IActionResult> CalculaJuros(decimal valorInicial, int meses)
         {
             try
             {
                 var calculaJurosService = new CalculaJurosService();
-                var TaxaJuros = await BuscaTaxaJurosService.ObterTaxaJuros();
+                var taxaJuros = await BuscaTaxaJurosService.ObterTaxaJuros();
 
-                return Ok(calculaJurosService.CalculaJurosComposto(ValorInicial, Meses, TaxaJuros));
+                return Ok(calculaJurosService.CalculaJurosComposto(valorInicial, meses, taxaJuros));
             }
             catch (Exception ex)
             {
-                return UnprocessableEntity(ex.Message);
+                return BadRequest(ex.Message);
             }
 
         }

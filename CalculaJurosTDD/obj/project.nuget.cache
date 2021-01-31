@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gWLmRWfa+2KVTBKFn8+m3n7Q342qUzmaplU/ywG0kvVapcupySkQcnDhKI/DZuytxPUI0RXR6RJKPbs82YDBpg==",
+  "dgSpecHash": "pbgQWw7qQgjPRZuXtjxCvt2S0LY2U2nTVFEb6wTDHOoAcdBm05L7bhUeJEsxZ87qima2MMFl712ZJPNS26uhYg==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosTDD\\CalculaJurosTDD.csproj",
+  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosTDD\\CalculaJurosTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\babya\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\babya\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

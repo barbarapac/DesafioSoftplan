@@ -4856,9 +4856,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosTDD\\CalculaJurosTDD.csproj",
-      "projectName": "CalculaJurosTDD",
-      "projectPath": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosTDD\\CalculaJurosTDD.csproj",
+      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosTDD\\CalculaJurosTest.csproj",
+      "projectName": "CalculaJurosTest",
+      "projectPath": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosTDD\\CalculaJurosTest.csproj",
       "packagesPath": "C:\\Users\\babya\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos\\DesafioSoftplan\\CalculaJurosTDD\\obj\\",
       "projectStyle": "PackageReference",
